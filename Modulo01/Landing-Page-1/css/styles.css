@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #134234;
+    color: white;
+}
+
+section {
+    background-color: #398b53;
+    border-bottom: 1px solid #678678;
+}
+
+footer {
+    background-color: #3a4b3f;
+    color: white;
+    
+}
