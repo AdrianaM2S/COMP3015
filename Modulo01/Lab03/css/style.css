@@ -1,0 +1,28 @@
+/* Estilo base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilos para pantallas menores a 600px */
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    p  {
+        font-size: 16pt;
+    }
+}
+
+/* Estilos para pantallas mayores a 600px */
+@media (min-width: 601px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+  
